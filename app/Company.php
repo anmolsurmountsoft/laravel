@@ -50,5 +50,8 @@ class Company extends Model
     /**
      * @var array
      */
-    protected $fillable = ['address', 'city', 'code', 'country', 'created_at', 'created_by', 'deleted_at', 'deleted_by', 'description', 'email', 'fax', 'location', 'logo', 'name', 'phone', 'province', 'rating', 'updated_at', 'updated_by', 'website', 'zipcode'];
+    protected $fillable = ['address', 'city', 'code', 'country', 
+    'created_at', 'created_by', 'deleted_at', 'deleted_by', 'description',
+    'email', 'fax', 'location', 'logo', 'name', 'phone', 'province',
+    'rating', 'updated_at', 'updated_by', 'website', 'zipcode'];
 }
